@@ -311,25 +311,36 @@ public class TicTacToe
             xCount = 0;
             oCount = 0;
 
-            if (gameBoard[2].equals("X")) {
+            if (gameBoard[2].equals("X"))
+            {
                 xCount++;
-            } else if (gameBoard[2].equals("O")) {
+            }
+            else if (gameBoard[2].equals("O"))
+            {
                 oCount++;
             }
-            if (gameBoard[4].equals("X")) {
+            if (gameBoard[4].equals("X"))
+            {
                 xCount++;
-            } else if (gameBoard[4].equals("O")) {
+            } else if (gameBoard[4].equals("O"))
+            {
                 oCount++;
             }
-            if (gameBoard[6].equals("X")) {
+            if (gameBoard[6].equals("X"))
+            {
                 xCount++;
-            } else if (gameBoard[6].equals("O")) {
+            }
+            else if (gameBoard[6].equals("O"))
+            {
                 oCount++;
             }
 
-            if (oCount == 0 || xCount == 0) {
+            if (oCount == 0 || xCount == 0)
+            {
                 rightDiagonalDraw = false;
-            } else {
+            }
+            else
+            {
                 rightDiagonalDraw = true;
             }
         }
